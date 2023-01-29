@@ -13,7 +13,7 @@ app.use(cors());
 bot.on('message', async (msg) => {
     const chatId = msg.chat.id;
     const text = msg.text;
-
+    console.log(text)
     if(text === '/start') {
         await bot.sendMessage(chatId, 'Нажми кнопку чтобы начать', {
             reply_markup: {
