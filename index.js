@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
 
-const token = '6181379214:AAFdcHN-wZeWgJq_KWKLM8SKp4TukwtZe8g';
+const token = '6184633194:AAFrbd33gnIGFFTKlpgleLPYkGuJzA8isrA';
 const webAppUrl = 'https://keepcorn-front-x4vw.vercel.app/';
 const bot = new TelegramBot(token, {polling: true});
 const app = express();
