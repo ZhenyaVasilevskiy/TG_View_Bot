@@ -2,9 +2,10 @@
   "name": "tg-web-app-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "App.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon App.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "node-telegram-bot-api": "^0.58.0"
+    "grammy": "^1.13.1",
+    "node-telegram-bot-api": "^0.58.0",
+    "telegraf": "^4.11.2"
   }
 }
