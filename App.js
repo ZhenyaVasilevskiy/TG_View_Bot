@@ -31,6 +31,7 @@ app.listen(PORT, () => console.log("server started on PORT " + PORT));
 //     keyboard: [[{ text: "Начать регистрацию", web_app: { url: webAppUrl } }]],
 //   },
 // });
+//
 // await ctx.reply("Зарегистрироваться в Keepcorn", {
 //   reply_markup: {
 //     inline_keyboard: [[{ text: "Начать регистрацию", web_app: { url: webAppUrl } }]],
