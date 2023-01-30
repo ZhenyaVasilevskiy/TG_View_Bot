@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 bot.start();
-bot.api.setWebhook("https://tg-view-bot.vercel.app/")
+
 bot.command("start", async (ctx) => {
   console.log(ctx)
   await ctx.replyWithPhoto(new InputFile("./registration.jpg"), {
