@@ -11,6 +11,7 @@ app.use(cors());
 bot.start();
 
 bot.command("start", async (ctx) => {
+  console.log(ctx)
   await ctx.replyWithPhoto(new InputFile("./registration.jpg"), {
     caption: "Зарегистрироваться в Keepcorn",
     parse_mode: "HTML",
