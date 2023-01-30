@@ -14,6 +14,13 @@ bot.on('message', async (msg) => {
     const chatId = msg.chat.id;
     const text = msg.text;
     console.log(text)
+    await bot.sendMessage(chatId, 'Нажми кнопку чтобы начать', {
+        reply_markup: {
+            keyboard: [
+                [{text: 'Начать регистрацию', web_app: {url: webAppUrl}}]
+            ]
+        }
+    })
     if(text === '/start') {
         await bot.sendMessage(chatId, 'Нажми кнопку чтобы начать', {
             reply_markup: {
