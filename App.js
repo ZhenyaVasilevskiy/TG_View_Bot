@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 
 const token = "5916581638:AAE3EL7MDymbr-aUShiv5FgCv8F3whtx3To";
-const webAppUrl = "https://keepcorn-front-x4vw.vercel.app/";
+const webAppUrl = "https://keepcorns.com/";
 const bot = new Bot(token);
 const app = express();
 app.use(express.json());
